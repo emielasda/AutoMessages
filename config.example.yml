@@ -1,0 +1,33 @@
+# AutoMessages 1.0.0 — пример для LabAPI 1.1.7.
+is_enabled: true
+debug: false
+start_delay: 600
+repeat: 600
+default_time: 20
+random_order: false
+# ВНИМАНИЕ: true очистит в том числе Broadcast, созданные другими плагинами.
+clear_previous_broadcasts: false
+show_only_during_round: true
+messages:
+  - id: admin_recruitment
+    is_enabled: true
+    time: 20
+    message: |-
+      <color=#FFD700>Хотите стать администратором?</color>
+      Заходите в наш <color=#5865F2>Discord</color> и пройдите собеседование!
+  - id: discord
+    is_enabled: true
+    time: 20
+    message: |-
+      <color=#5865F2>Наш Discord:</color>
+      <color=#FFFFFF>discord.gg/example</color>
+  - id: rules
+    is_enabled: true
+    time: 15
+    message: |-
+      <color=#FF5555>Не нарушайте правила сервера!</color>
+      Незнание правил не освобождает от ответственности.
+  - id: welcome
+    is_enabled: true
+    time: 20
+    message: <color=#00FF00>Приятной игры на нашем сервере!</color>
